@@ -1,4 +1,4 @@
-# Hassan's Dotfiles
+# Juyue's Dotfiles
 
 Software covered:
 

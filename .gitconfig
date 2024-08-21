@@ -1,6 +1,6 @@
 [user]
-	name = hfarooq
-	email = hfarooq@covariant.ai
+	name = Juyue Chen
+	email = jychen.coding@gmail.com 
 [filter "lfs"]
 	process = git-lfs filter-process
 	required = true
