@@ -10,6 +10,7 @@
 	helper = store
 [core]
     pager = delta
+    editor = vim
 
 [interactive]
     diffFilter = delta --color-only
@@ -25,3 +26,17 @@
 
 [diff]
     colorMoved = default
+
+[push]
+        default = current
+
+[pull]
+        default = current
+[alias]
+        co = checkout
+        ci = commit
+        st = status
+        br = branch
+        hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+        type = cat-file -t
+        dump = cat-file -p
